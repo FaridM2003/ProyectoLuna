@@ -1,6 +1,7 @@
 import { AboutitComponent } from './components/aboutit/aboutit.component';
 import { HomeComponent } from './components/home/home.component';
-import { Routes } from '@angular/router';
+import { Routes, RouterLink } from '@angular/router';
+
 
 export const routes: Routes = [
   {path:"", component: HomeComponent},
