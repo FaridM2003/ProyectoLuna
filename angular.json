@@ -16,6 +16,7 @@
             "outputPath": "dist/proyecto-luna",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "https://faridm2003.github.io/ProyectoLuna/",
             "polyfills": [
               "zone.js"
             ],
