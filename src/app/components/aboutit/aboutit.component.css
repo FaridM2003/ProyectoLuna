@@ -1,4 +1,10 @@
 section{
-  width:100vw;
-  height: 10vh;
+  padding: 2px;
+  display: flex;
+  flex:auto;
+  flex-wrap: wrap;
 }
+.cards{
+  margin: 5vh 2vw;
+}
+
