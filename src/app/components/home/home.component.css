@@ -1,1 +1,8 @@
-
+.mainmenu{
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+}
+.carousel-inner .carousel-item{
+height: 15rem;
+}
