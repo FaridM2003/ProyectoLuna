@@ -1,10 +1,9 @@
 section{
-  padding: 2px;
   display: flex;
   flex:auto;
   flex-wrap: wrap;
 }
 .cards{
-  margin: 5vh 2vw;
+  margin: 5vh 1vw;
 }
 

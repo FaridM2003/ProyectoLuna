@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet, Routes } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterOutlet, Routes } from '@angular/router';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -22,10 +22,13 @@ import { TabdivComponent } from './components/tabdiv/tabdiv.component';
 })
 export class AppComponent {
   title = 'ProyectoLuna';
+  constructor(private route: ActivatedRoute) { }
+ interfaz:any;
+  ngOnInit(): void {
+    this.route.params.subscribe(params => {
+      console.log(params['']);
+      this.interfaz = params[''];
+    });
+  }
 
-  items = [
-    'texto',
-    'texto1',
-    'text'
-  ]
 }

@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './aboutit.component.css'
 })
 export class AboutitComponent {
-
+  trabajadores:string[] = [
+    'test',
+    'test',
+    'test'
+  ]
 }
