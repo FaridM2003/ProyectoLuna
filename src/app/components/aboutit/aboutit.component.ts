@@ -11,6 +11,7 @@ export class AboutitComponent {
   trabajadores:string[] = [
     'test',
     'test',
-    'test'
+    'test',
+    'tester'
   ]
 }
