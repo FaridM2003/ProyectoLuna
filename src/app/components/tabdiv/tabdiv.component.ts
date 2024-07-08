@@ -2,7 +2,7 @@ import { Component, ContentChild, Input, OnInit, TemplateRef } from '@angular/co
 import { RouteConfigLoadEnd, RouteConfigLoadStart, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { LoadingscreenService } from '../services/loadingscreen.service';
 import { Observable, tap } from 'rxjs';
-
+import * as Popper from "@popperjs/core"
 @Component({
   selector: 'app-tabdiv',
   standalone: true,
