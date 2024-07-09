@@ -7,5 +7,4 @@ import { Routes, RouterLink } from '@angular/router';
 export const routes: Routes = [
   {path:"", component: HomeComponent},
   {path:"about", component: AboutitComponent},
-  {path:"tab", component: TabdivComponent}
 ];
