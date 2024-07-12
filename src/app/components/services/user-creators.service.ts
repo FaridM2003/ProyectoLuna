@@ -7,7 +7,7 @@ export class UserCreatorsService {
   private _user: users[] = [
     {
       nombre:'farid',
-      description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quod ad et deserunt aut dignissimos quas cumque omnis aliquid ex asperiores dolore, atque mollitia perferendis. Quod, saepe veniam. Ea, nisi!"
+      description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quod ad et deserunt aut dign!"
     },
     {
       nombre:'Carlos',
