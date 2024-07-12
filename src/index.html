@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="https://gifdb.com/images/high/chibi-hyper-neon-anime-dance-sfipr7dzsesrwnaf.gif">
+  sc
   <title>ProyectoLuna</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="gif/x-icon" href="icono.gif">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -13,14 +16,37 @@
 <body class="mat-typography">
   <app-root></app-root>
   <center>
-    <iframe width="1px" height="1px" src="https://www.youtube.com/embed/mUNdVTukrcs?si=1uDqhDHKxl3sqHv_&autoplay=1&controls=0" loop  title="musica de fondo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="1px" height="1px" src="https://www.youtube.com/embed/mUNdVTukrcs?si=4kdSNhfaFbKzpEMJ&autoplay=1&controls=0" loop  title="musica de fondo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <img src="https://media.tenor.com/hYkRcm80JFwAAAAj/foxy-foxplushy.gif" style="border-radius: 10%; position:fixed; top: 80%; /* Posición desde el borde superior */
     left: 80%; /* Posición desde el borde izquierdo */
     transform: translate(-50%, -50%); /* Centrar la imagen */" alt="gif anime">
-<iframe src='https://www.minijuegos.mx/embed/cat-mario' style='width:40%;height:500px;' frameborder='0' allowfullscreen></iframe>
-<div style="height: 200px;" class="separacion">.</div>
-<iframe src='https://www.minijuegos.mx/embed/tetris-i1240' style='width:40%;height:500px;' frameborder='0' allowfullscreen></iframe>
 
+<div id="iframe-container">
+  <iframe id="desktop-iframe-1" src="https://www.minijuegos.mx/embed/cat-mario" style='width:40%;height:500px;' frameborder='0' allowfullscreen></iframe>
+  <div style="height: 200px;" class="separacion">.</div>
+  <iframe id="desktop-iframe-2" src="https://www.minijuegos.mx/embed/tetris-i1240" style='width:40%;height:500px;' frameborder='0' allowfullscreen></iframe>
+  <div style="height: 200px;" class="separacion">.</div>
+  <iframe id="mobile-iframe-1" src="https://www.minijuegos.mx/juego/cat-mario/jugar" style='width:70%;height:500px;' frameborder='0' allowfullscreen></iframe>
+  <div style="height: 200px;" class="separacion">.</div>
+  <iframe id="mobile-iframe-2" src="https://www.minijuegos.mx/juego/tetris-i1240/jugar" style='width:70%;height:500px;' frameborder='0' allowfullscreen></iframe>
+</div>
+
+<script>
+  const isMobile = window.matchMedia('only screen and (max-width: 768px)').matches;
+
+  if (isMobile) {
+      document.getElementById('mobile-iframe-1').style.display = 'block';
+      document.getElementById('mobile-iframe-2').style.display = 'block';
+      document.getElementById('desktop-iframe-1').style.display = 'none';
+      document.getElementById('desktop-iframe-2').style.display = 'none';
+  } else {
+      document.getElementById('mobile-iframe-1').style.display = 'none';
+      document.getElementById('mobile-iframe-2').style.display = 'none';
+      document.getElementById('desktop-iframe-1').style.display = 'block';
+      document.getElementById('desktop-iframe-2').style.display = 'block';
+  }
+</script>
 </center>
 </body>
 </html>
