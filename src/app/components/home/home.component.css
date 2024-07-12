@@ -1,0 +1,11 @@
+.mainmenu{
+  width: 100vw;
+  height: 50vh;
+  background-color: gray;
+}
+.carousel-inner .carousel-item{
+height: 50vh;
+}
+img{
+  height: 100vh;
+}
