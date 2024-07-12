@@ -11,7 +11,7 @@ export class UserCreatorsService {
     },
     {
       nombre:'Carlos',
-      description:"patata gei",
+      description:"patata asada bien rica",
     },
     {
       nombre:'Jafet',
