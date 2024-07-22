@@ -1,6 +1,8 @@
 # ProyectoLuna
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+Este proyecto ha sido hecho usando [Angular CLI](https://github.com/angular/angular-cli)
+
+Trabajo hecho por Alumnos universitarios de la Universidad Politecnica de Lazaro Cardenas
 
 ## Development server
 
@@ -25,3 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+### Este proyecto es con fines educativos
+
+Cualquier error es cometido por participantes de este proyecto
